@@ -1,0 +1,52 @@
+Angular CLI
+    Command Line Interface
+    ->In the terminal -you can run commands and get most of the work done easily 
+    ->It provides some commands and schematics which helps us with faster code generation.
+
+1) check for node version by running the command
+    -> node -v
+2)Check for the npm version
+    ->npm -version
+
+3)To insall Angular CLI
+    -> npm i -g @angular/cli
+
+4)To Create New Project 
+    -> ng new <project_name>
+       eg-> ng new simpleCRM
+
+5) Change folder
+   -> cd .\simpleCRM\
+7) ng serve
+    ->the application will compiled here
+    ->default port of Angular is 4200
+    ->http://localhost:4200
+8) Blue screen 
+    Application up and running
+ ----------------------------------------------------------------------------------- 
+Command to change port no 
+	->ng serve --port 4221 
+
+src -contains main port file 
+inside that app folder is present 
+
+
+Angular Interpolation--------
+syntax-   {{ }}
+sending data from .ts file to html file
+------------
+this - means this class
+------------ 
+What is component in Angular
+->component is piece of code that is responsible for specific task.
+->component are reusable
+->it is pice of code with bunch of files
+      4 files in component
+app.component.css-  styling work
+app.component.html- template
+app.component.spec.ts -testcases and all
+app.component.ts -bussness logic ,api call,func,services
+
+how to create new component?------
+  ng g c component_name
+
